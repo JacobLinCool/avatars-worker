@@ -1,3 +1,6 @@
 name = "avatar"
 compatibility_date = "2022-11-20"
 main = "src/index.ts"
+routes = [
+	{ pattern = "avatar.jacoblin.cool", custom_domain = true, zone_name = "jacoblin.cool" }
+]
