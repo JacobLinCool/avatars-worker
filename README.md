@@ -1,17 +1,17 @@
 # Avatars Worker
 
-[https://avatar.jacob.workers.dev/](https://avatar.jacob.workers.dev/)
+[https://avatar.jacoblin.cool/](https://avatar.jacoblin.cool/)
 
 Get random avatars from [https://github.com/jacoblincool/avatars](https://github.com/jacoblincool/avatars).
 
 ## Examples
 
-> [https://avatar.jacob.workers.dev/random](https://avatar.jacob.workers.dev/random)
+> [https://avatar.jacoblin.cool/random](https://avatar.jacoblin.cool/random)
 
-![https://avatar.jacob.workers.dev/random](https://avatar.jacob.workers.dev/random)
+![https://avatar.jacoblin.cool/random](https://avatar.jacoblin.cool/random)
 
 ---
 
-> [https://avatar.jacob.workers.dev/watercolor/random](https://avatar.jacob.workers.dev/watercolor/random)
+> [https://avatar.jacoblin.cool/watercolor/random](https://avatar.jacoblin.cool/watercolor/random)
 
-![https://avatar.jacob.workers.dev/watercolor/random](https://avatar.jacob.workers.dev/watercolor/random)
+![https://avatar.jacoblin.cool/watercolor/random](https://avatar.jacoblin.cool/watercolor/random)
