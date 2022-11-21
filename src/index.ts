@@ -29,10 +29,20 @@ app.get("/", async (c) => {
         `,
     );
 });
-app.get("/random", async (c) => c.redirect(await random()));
+app.get("/random", async (c) => {
+    const url = await random();
+    if (c.req.query("json")) {
+        return c.json({ url });
+    }
+    return c.redirect(url);
+});
 app.get("/:collection/random", async (c) => {
     const { collection } = c.req.param() as { collection: string };
-    return c.redirect(await random(collection));
+    const url = await random(collection);
+    if (c.req.query("json")) {
+        return c.json({ url });
+    }
+    return c.redirect(url);
 });
 app.get("/:collection/:name", async (c) => {
     const { collection, name } = c.req.param() as { collection: string; name: string };
